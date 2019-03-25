@@ -1,7 +1,8 @@
 - id: woostbot
   firstName: Jorge Luis
   lastName: Calleja
-  bio: Founder @ Codea. Developer Frontend/JavaScript
+  bio: Ingeniero Front-End (Reactjs)
+  bioFull: Desarrollador de software Frontend, me apasiona crear cosas para la web y me gusta compartir con la comunidad las tecnologías que uso en mi trabajo.
   avatar: avatars/jorge-luis-calleja-alvarado.jpg
   twitter: '@wootsbot'
   github: https://github.com/wootsbot
@@ -10,6 +11,7 @@
 - id: slackmart
   firstName: Martín
   lastName: Rodríguez
-  bio: Ingeniero de Software
+  bio: Ingeniero de Software | python + golang + devops
+  bioFull: Ingeniero de Software | python + golang + devops
   avatar: avatars/martin-rodriguez.jpg
   gitLab: https://gitlab.com/slackmart

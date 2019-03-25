@@ -13,3 +13,11 @@
 - id: kwargs
   description: Los parámetros nombrados (kwargs) son soportados por algunos lenguajes de programación, y su característica distintiva es que al momento de invocar la función se específica claramente a qué variable se asignará el valor indicado.
   web: https://en.wikipedia.org/wiki/Named_parameter
+
+- id: reactjs
+  description: ReactJs es una biblioteca de JavaScript para construir interfaces de usuario, desarrolla interfaces de usuario interactivas de forma sencilla. Diseña vistas simples para cada estado en tu aplicación, y React se encargará de actualizar y renderizar de manera eficiente los componentes correctos cuando los datos cambien.
+  web: https://es.reactjs.org/
+
+- id: javascript
+  description: JavaScript (JS) es un lenguaje ligero e interpretado, orientado a objetos con funciones de primera clase, más conocido como el lenguaje de script para páginas web.
+  web: https://developer.mozilla.org/es/docs/Web/JavaScript
