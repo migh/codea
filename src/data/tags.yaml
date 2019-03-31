@@ -17,7 +17,3 @@
 - id: reactjs
   description: ReactJs es una biblioteca de JavaScript para construir interfaces de usuario, desarrolla interfaces de usuario interactivas de forma sencilla. Diseña vistas simples para cada estado en tu aplicación, y React se encargará de actualizar y renderizar de manera eficiente los componentes correctos cuando los datos cambien.
   web: https://es.reactjs.org/
-
-- id: javascript
-  description: JavaScript (JS) es un lenguaje ligero e interpretado, orientado a objetos con funciones de primera clase, más conocido como el lenguaje de script para páginas web.
-  web: https://developer.mozilla.org/es/docs/Web/JavaScript
