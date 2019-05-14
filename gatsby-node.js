@@ -5,6 +5,8 @@ const _ = require('lodash')
 const trimStart = require('lodash/trimStart')
 const createPaginatedPages = require('gatsby-paginate')
 
+const { siteMetadata } = require('./gatsby-config');
+
 exports.onCreateWebpackConfig = ({
   stage,
   rules,
@@ -29,7 +31,7 @@ exports.onCreateNode = ({ node, actions, getNode, reporter }) => {
   if (
       node.internal.type === `MarkdownRemark` &&
       getNode(node.parent).internal.type === 'File'
-    ) {
+  ) {
     const fileNode = getNode(node.parent)
     const parsedFilePath = parseFilepath(fileNode.relativePath)
     let slug;
@@ -42,6 +44,8 @@ exports.onCreateNode = ({ node, actions, getNode, reporter }) => {
       }
 
       if(slug) {
+        console.log(`${siteMetadata.siteUrl}${slug}`);
+        console.log(node.frontmatter.title);
         createNodeField({ node, name: `slug`, value: slug })
       }
     }
